@@ -1,0 +1,6 @@
+#home {
+  .cards {
+    @include outer-container;
+    padding: 25px 0;
+  }
+}
