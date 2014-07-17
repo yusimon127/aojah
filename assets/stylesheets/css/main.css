@@ -572,8 +572,8 @@ input[type="submit"] {
             width: 12em; } }
 
 .hero {
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), -webkit-linear-gradient(-280deg, #217142, #214271), no-repeat #214271 scroll;
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(10deg, #217142, #214271), no-repeat #214271 scroll;
+  background: url("../../images/jamaican_awareness.png"), -webkit-linear-gradient(-280deg, #217142, #214271), no-repeat #214271 scroll;
+  background: url("../../images/jamaican_awareness.png"), linear-gradient(10deg, #217142, #214271), no-repeat #214271 scroll;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -597,6 +597,9 @@ input[type="submit"] {
       content: "";
       display: table;
       clear: both; }
+    @media screen and (min-width: 53.75em) {
+      .hero .hero-inner {
+        padding: 7em; } }
     .hero .hero-inner button {
       border: 1px solid #dbdbdb;
       border-radius: 3px;
