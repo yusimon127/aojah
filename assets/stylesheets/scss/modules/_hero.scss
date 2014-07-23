@@ -43,7 +43,7 @@
         margin-bottom: .5em;
 
         @include media($large-screen) {
-          font-size: 1.8em;
+          font-size: 3.8em;
         }
       }
 
@@ -55,7 +55,7 @@
         line-height: 1.4em;
 
         @include media($large-screen) {
-          font-size: 1.1em;
+          font-size: 1.3em;
           max-width: 40%;
         }
       }

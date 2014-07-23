@@ -1,5 +1,5 @@
 .footer {
-  background-color: brown;
+  background-color: $brown-darker;
   .copyright-container {
     @include outer-container;
     padding: 20px 0;

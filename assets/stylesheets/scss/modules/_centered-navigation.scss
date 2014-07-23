@@ -1,9 +1,9 @@
 .centered-navigation {
   $centered-navigation-padding: 1em;
   $centered-navigation-logo-height: 2em;
-  $centered-navigation-background: #E7F1EC;
-  $centered-navigation-color: transparentize($base-font-color, 0.3);
-  $centered-navigation-color-hover: $base-font-color;
+  $centered-navigation-background: $brown-darker;
+  $centered-navigation-color: white;
+  $centered-navigation-color-hover: white;
   $centered-navigation-height: 60px;
   $centered-navigation-item-padding: 1em;
   $centered-navigation-submenu-padding: 1em;
@@ -28,7 +28,6 @@
 
     img {
       max-height: $centered-navigation-height;
-      opacity: .6;
       padding: .8em 0;
     }
 
@@ -116,6 +115,8 @@
 
       &:hover {
         color: $centered-navigation-color-hover;
+        font-size: 1.5em;
+        transition: font 0.5s ease;
       }
     }
   }
@@ -130,9 +131,9 @@
   }
 
   .logo img {
+    padding-right: $centered-navigation-item-padding;
     margin-bottom: -$centered-navigation-logo-height / 3;
     max-height: $centered-navigation-logo-height;
-    opacity: .6;
   }
 
   // Sub menus
